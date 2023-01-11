@@ -1,0 +1,30 @@
+Ok so first of all lets split up the entire Livermore project into 3 parts
+
+
+1. Fetch the data
+
+2. Process the data
+
+3. Analyse the data.
+
+
+1. Fetching
+The fetching is the first and longest part of this entire process. We need to interact with the website and download every single stock in Nasdaq/s history to have enough data to train our AI. I am thinking this project shoudl be done with the following issues in mind.
+    1. Nasdaq blocks your ip. THhis is my biggest fear, I asusme nasdaq has a fuckton of control over the bots in its network, therefore we need to use an IP address from a VPN while we do this execution. 
+    2. The execution time. When I ran my program manually it took about 1-2 days. We need to solve this in 2 ways.
+        1. Have it execute headless on a server usign a docker image. Easier said than done, but this should not be hard.
+        2. Decrease the execution time. Look into writing this software in a faster language (Rust is a meme but can it even be used here???), use a faster browser, or use a faster browser automation framework, you have heard that Selenium can be quite slow by Vishal
+    3. Decrease the timeout, This is inda related to 2.2 however we need to not use timeout when writing this project. I might write this in playwright? Would that fix that issue??? 
+    4. Ad blocking and cookies. Should I make the assumption that I have an ad blocker on? no. But how do I make it better than the one I have now? If it aint broke don't fix it???
+    5. Execution date. How often should we run this?
+
+We also need to make sure that we can verify that the data has been downloaded. Maybe have a last step and go over which one has failed and which ones we have? Would be nice to maybe add an email to this so I can tell what went wrong???
+
+
+2. Process.
+This has to be the easier part of this project. We need to have a collection of raw images and then add the new information to the old CSV files. Nasdaq only uses the 10 year data so if we run this every year we increase the data by 10% anually. Not a lot but could matter in the future I would imagien.
+Write this shit in Rust so you can actually learn the goddamn langauge.
+
+
+3. Analyse.
+This will be the hardest part imo. Now you need to learn how to do data science. This is the goal of the project anyway. Livermore will be a sick trading bot! Take your time before doing this. Will matter a lot and take a crap ton of time. So wait until you have the time and the passion for it
