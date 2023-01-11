@@ -1,3 +1,6 @@
 [submodule "Livermore-fetch"]
 	path = Livermore-fetch
 	url = git@github.com:calexanderberg/Livermore-fetch.git
+[submodule "Livermore-process"]
+	path = Livermore-process
+	url = git@github.com:calexanderberg/Livermore-process.git
