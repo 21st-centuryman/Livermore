@@ -3,8 +3,8 @@
 # Livermore
 ##### Fetch, process, and analyse stock data!
 
-[![Rust](https://img.shields.io/badge/Livermore/-Fetch-orange.svg?style=for-the-badge&logo=rust)](https://www.rust-lang.org/)
-[![Python](https://img.shields.io/badge/Livermore/-Analyze-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Rust](https://img.shields.io/badge/Livermore\-Fetch-orange.svg?style=for-the-badge&logo=rust)](https://www.rust-lang.org/)
+[![Python](https://img.shields.io/badge/Livermore\-Analyze-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 </div>
 
 ## ⇁  Introduction
