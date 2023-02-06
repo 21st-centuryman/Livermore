@@ -4,7 +4,7 @@
 ##### Fetch, process, and analyse stock data!
 
 [![Rust](https://img.shields.io/badge/Livermore_Fetch-orange.svg?style=for-the-badge&logo=rust)](https://www.rust-lang.org/)
-[![Python](https://img.shields.io/badge/Livermore\-Analyze-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Livermore_Analyze-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 </div>
 
 ## ⇁  Introduction
