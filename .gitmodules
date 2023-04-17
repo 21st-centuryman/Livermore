@@ -1,8 +1,8 @@
 [submodule "Livermore-fetch"]
 	path = Livermore-fetch
 	url = git@github.com:calexanderberg/Livermore-fetch.git
-  branch = main
+  	branch = main
 [submodule "Livermore-analyze"]
 	path = Livermore-analyze
 	url = https://github.com/21st-centuryman/Livermore-analyze
-  branhc = main
+  	branch = main
