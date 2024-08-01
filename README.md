@@ -5,6 +5,8 @@
 
 [![Rust](https://img.shields.io/badge/Livermore--Fetch-orange.svg?style=for-the-badge&logo=rust)](https://github.com/21st-centuryman/Livermore-fetch/tree/main)
 [![Python](https://img.shields.io/badge/Livermore--Analyze-3776AB.svg?style=for-the-badge&logo=python&logoColor=white)](https://github.com/21st-centuryman/Livermore-analyze)
+
+<i>Click on these buttons to go to project</i>
 </div>
 
 ## ⇁  Introduction
@@ -18,7 +20,4 @@ Annoyingly I decided to write these two projects in two languages.
 
 Fetch is written in Rust using both [polars](https://www.pola.rs/) and the [yahoo-finance-api](https://docs.rs/yahoo_finance_api/latest/yahoo_finance_api/) crate. This is because I am actively learning rust and it would be a shame to stop that tend now. 
 
-Analyse will be written in Python using Stable baselines and gymnasium.
-
-## ⇁  Current status
-This is still a major work in progress please see the submodules for more details.
+Analyse is written in Python using [Stable baselines3](https://github.com/DLR-RM/stable-baselines3) and [gymnasium](https://gymnasium.farama.org/).
