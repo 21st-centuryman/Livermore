@@ -10,7 +10,7 @@
 </div>
 
 ## ⇁  Introduction
-Welcome to Livermore, This is my attempt to get into AI in ways that I enjoy, meaning having a goal in mind and falling over every step on the way; hopefully learning something while during it. In Livermore's case I will try to fetch stock information and then use an AI to trade day to day stock prices. Named after the stock broker Jessie Livermore, the inspiration for "Reminicense of a Stock Operator", the author of "How to trade in stocks", and the Great Grandfather of adult film actess Brandi Love.
+Welcome to Livermore, This is my attempt to get into AI in ways that I enjoy, meaning having a goal in mind and falling over every step on the way; hopefully learning something while during it. In Livermore's case I will try to fetch stock information and then use an AI to trade day to day stock prices. Named after the stock broker Jessie Livermore, the inspiration for "Reminicense of a Stock Operator", the author of "How to trade in stocks".
 
 ## ⇁  Structure
 Livermore is structured in two git submodules, Livermore-fetch will fetch and process the data, and Livermore-Analyze is my AI and gym environment.
